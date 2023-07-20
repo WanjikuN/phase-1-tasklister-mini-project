@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let btn = document.createElement('button');
     btn.addEventListener('click',handleDelete);
     btn.textContent = 'x';
+    btn.style.color = 'red';
     li.textContent = `${text} `;
     li.appendChild(btn);
     
